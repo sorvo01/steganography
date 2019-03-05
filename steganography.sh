@@ -33,3 +33,6 @@ zsteg -a stego.jpg to run all checks
 stegdetect stego.jpg
 #stegbreak 	Images (JPG) 	Brute force cracker for JPG images. Claims it can crack outguess, jphide and jsteg.
 stegbreak -t o -f wordlist.txt stego.jpg, #use -t o for outguess, -t p for jphide or -t j for jsteg
+
+#steghide extract
+steghide extract -sf file.jpg
